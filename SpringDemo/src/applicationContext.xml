@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+	<bean id="propertyDemo" class="com.spring.demo.dao.PropertyDemo">
+		<property name="arrs">
+			<list>
+				<value>Value 1 of Array</value>
+				<value>Value 2 of Array</value>
+				<value>Value 3 of Array</value>
+			</list>
+		</property>
+		
+		<property name="list">
+			<list>
+				<value>Value 1 of List</value>
+				<value>Value 2 of List</value>
+				<value>Value 3 of List</value>
+			</list>
+		</property>
+		
+		<property name="map">
+			<map>
+				<entry key="key1" value="Value 1 of Map"></entry>	
+				<entry key="key2" value="Value 2 of Map"></entry>
+				<entry key="key3" value="Value 3 of Map"></entry>
+			</map>
+		</property>
+		
+		<property name="properties">
+			<props>
+				<prop key="username">root</prop>
+				<prop key="password">123456</prop>
+			</props>
+		</property>
+	</bean>
+</beans> 
