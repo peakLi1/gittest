@@ -9,8 +9,11 @@ public class ControllerDemo {
 	
 	@RequestMapping("/index")
 	public String index() {
-		System.out.println("yonghshangwole");
 		return "demo";
+	}
+	@RequestMapping("/index2")
+	public String index2() {
+		return "demo2";
 	}
 
 
