@@ -15,6 +15,10 @@ public class ControllerDemo {
 	public String index2() {
 		return "demo2";
 	}
+	@RequestMapping("/index3")
+	public String index3() {
+		return "demo3";
+	}
 
 
 }	

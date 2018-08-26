@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+		<!-- 定义连接的数据库，可自行修改 -->
+		<property name="connection.url">jdbc:mysql://localhost:3306/demo</property>
+		<!-- 定义连接的用户名，可自行修改 -->
+		<property name="connection.username">root</property>
+		<!-- 定义连接的用户名密码，可自行修改 -->
+		<property name="connection.password">123</property>
+		<!-- 定义连接的数据库方言，可自行修改（比如你用的是Oracle数据库而不是MySQL） -->
+		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+		
+		<mapping resource="com/entity/User.hbm.xml"/>
+		
+	</session-factory>	
+</hibernate-configuration>    
