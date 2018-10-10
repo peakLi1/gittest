@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>联系我们</title>
+<link rel="stylesheet" href="css/public.css">
+<link rel="stylesheet" href="css/lianmeng.css">
+</head>
+<body>
+<!--头部开始-->
+<header style="height:80px">
+<iframe src="head.html" width="100%" frameborder="0" scrolling="no" marginwidth="0" marginheight="0"></iframe>
+</header>
+<!--内容部分-->
+<section  class="overflow">
+    <div class="contact overflow">
+        <div class="contact-left fl">
+            <div class="contact-title">
+                <h1>联系我们</h1>
+                <h1 class="english">Contact us</h1>
+            </div>
+            <ul class="overflow">
+                <li><a href="#">专业咨询</a></li>
+                <li><a href="#">贴心服务</a></li>
+                <li><a href="#">耐心指导</a></li>
+            </ul>
+        </div>
+        <div class="contact-right fr">
+            <img src="img/contact.jpg">
+        </div>
+    </div>
+    <h2 class="program-name">家具加家</h2>
+    <ul class="contact-method overflow">
+        <li class="relative">
+            <img src="img/lxdz.png">
+            <p class="absolute address">地址：
+             </p>
+        </li>
+        <li class="relative">
+            <img src="img/lxdh.png">
+           <div class="absolute rexian">
+               <p>客服热线:12345678</p>
+               <p>(周一至周五 9:00-18:00)</p>
+               <p class="rexian-phone"></p>
+           </div>
+        </li>
+        <li class="relative">
+            <img src="img/lxsys.png">
+            <div class="absolute saoyisao">
+                
+                <p>微信扫一扫</p>
+            </div>
+        </li>
+    </ul>
+    <!--百度路线-->
+    
+    <ul class="luxian">
+        <li class="overflow"><img src="img/bus.png"><p class="fl">地铁1号。。。。。。</p></li>
+        <li class="clear overflow"><img src="img/bus1.png">
+            <p class="fl">
+				具体公交到达方案：<br/>
+                1. <br/>
+				2.<br/>
+				3.<br/>
+				。。。。。。
+            </p>
+        </li>
+    </ul>
+</section>
+<!--尾部开始-->
+<footer>
+    <iframe src="foot.html" width="100%" height="136px" frameborder="0" scrolling="no" marginwidth="0" marginheight="0"></iframe>
+</footer>
+</body>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="http://api.map.baidu.com/api?v=2.0&ak=ZcAbmGWwaK7wMKGDuUC2EGKilsUUREGC"></script>
+
+
+<script>
+    var map = new BMap.Map("bdmap");
+   // var point=new BMap.Point(30.5940860000,104.0614940000);
+     var grocoder = new BMap.Geocoder();
+    grocoder.getPoint("西华大学",function(point){
+        var marker = new BMap.Marker(point);
+        map.addOverlay(marker);
+        //TODO 重新设置地图的中心点和显示级别
+        map.centerAndZoom(point,15);
+    });
+   map.enableScrollWheelZoom();
+</script>
+
+</html>

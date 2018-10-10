@@ -1,0 +1,49 @@
+/**************联系我们页面******************/
+section{width:950px;margin:0 auto;color:#707070}
+.contact-left{width:270px;margin-top:182px}
+.contact-title{padding-bottom:5px;border-bottom: 5px solid #49c33a }
+.contact-title h1{font-size:50px;color:#49c33a;font-weight: normal}
+.contact-title h1.english{font-size:28px}
+.contact-left ul{margin-top:15px}
+.contact-left ul li{float:left;margin-right:45px;}
+.contact-left ul li:last-child{margin-right:0}
+.contact-left ul li a{color:#49c33a;font-size:15px}
+.contact-right{margin-top:55px}
+h2.program-name{color:#49c33a;font-size:35px;font-weight:normal;text-align: center;margin:50px 0}
+.contact-method li{float:left;margin-right:54px;width:258px;padding:0 10px}
+.contact-method li:last-child{margin-right:0}
+p.address{width:90%;top:100px;text-indent: 2em;right:0}
+div.rexian{top:100px;text-align: center;right:50px}
+.rexian-phone{color:#49c33a;font-size:20px;font-weight: bold}
+div.saoyisao{top:90px;right:88px;text-align: center}
+#bdmap{margin:45px 0 10px 0;width:948px;height:375px;border:1px solid #aaded1}
+.luxian{margin-bottom:200px}
+.luxian li{margin-bottom:10px}
+.luxian img{float:left;vertical-align: middle;margin-right:20px}
+.luxian p{width:848px;margin-top:34px;line-height: 25px}
+
+
+
+/**********************联盟成员页面***********************/
+.member{margin-top:100px}
+.member li{width:304px;height:380px;border:1px solid #49c33a;border-top:none;border-bottom:none;padding:10px 5px;float:left;margin-bottom:155px}
+.member li:nth-child(1){border-left-width:2px }
+.member li:nth-child(3){border-right-width:2px }
+.member li:nth-child(4){border-left-width:2px }
+.member li:nth-child(6){border-right-width:2px }
+.member li p{text-indent: 2em;line-height: 25px}
+.introduce{margin-top:20px}
+
+
+
+/****************************关于联盟页面******************************/
+.about-alliance{margin-top:30px}
+.alliance-title{height:35px;line-height: 25px}
+.line{width:375px;height:2px;background:#49c33a;margin-top:14px }
+.circle{width:10px;height:10px;border-radius: 50%;background:#49c33a ;margin-top:10px }
+.alliance-content{margin:18px 0 70px 0}
+.alliance-content p{line-height: 25px;text-indent: 2em;}
+.text{font-size:30px;color:#49c33a;margin-left:30px}
+.alliance-content p.no-indent{text-indent: 0}
+.alliance-content p.declare{margin:30px 60px 30px 0;}
+.alliance-content p.declare1{margin:0 60px 30px 0;}

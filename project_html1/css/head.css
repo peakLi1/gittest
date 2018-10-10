@@ -1,0 +1,10 @@
+#header{width:96%;height:80px;background: #49c33a;padding:0 2%;color:#fff;line-height: 80px}
+#header ul{height:80px;width:68%;line-height: 80px;}
+#header ul li{float:left;margin-left:7%;height:80px}
+#header ul li a{color:#fff}
+.name{color:#fff;display: inline-block;height:80px;font-size:18px}
+.logo{width:54px;height:47px;background: url("../img/logo.png") no-repeat 0 0;margin-top:16px;margin-right:15px}
+.contact{margin-top:25px}
+div.contact{width:55px;height:85px;background: #dbd9d9;position:absolute;top:35px;left:-10px;display:none}
+div.contact p{text-align: center;font-size:16px;height:20px;line-height: 20px;margin-top:15px;cursor: pointer}
+#header ul li div.contact p a{color:#1fa886;}

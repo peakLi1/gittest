@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/public.css" >
+    <link rel="stylesheet" href="css/head.css" >
+</head>
+<body>
+
+    <div id="header">
+        <a class="fl logo" href="index.html" target="_blank"></a>
+        <span class="fl name bold">家具加家</span>
+        <ul class="fr">
+            <li><a href="index.html" target="_blank">返回首页</a></li>
+            
+            
+
+            <li><a href="contactUs.html" target="_blank">联系我们</a></li>
+            <li class="relative"><a href="#" ><img src="img/contact.png" class="contact"></a><div class="contact absolute"><p ><a class="denglu" href="login.html" target="_blank">登录</a></p><p ><a class="zhuce" href="regist.html" target="_blank">注册</a></p></div></li>
+        </ul>
+    </div>
+
+</body>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script>
+    $("#header li.relative").on("mouseover",function(){
+        $("div.contact").show();
+    })
+    $("#header li.relative").on("mouseout",function(){
+        $("div.contact").hide();
+    })
+</script>
+</html>

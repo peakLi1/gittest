@@ -1,0 +1,21 @@
+/**********新闻列表页面***********/
+section{width:950px;margin:0 auto;}
+#newslist li{border-bottom: 1px solid #52b340;color:#a6a6a6}
+.news-title{margin:50px 0 25px 40px }
+.news-title p{margin-top:7px}
+#newslist li h1{font-size:25px;font-weight:normal;width:50%;color:#9ea0a1}
+#newslist li .news-content{text-indent: 2em;line-height: 25px}
+#newslist li .look-more{overflow: hidden}
+#newslist li .look-more a{float: right;height:28px;width:75px;line-height:28px;text-align:center;border-radius:5px;background: #52b340;color:#fff;margin:26px 95px}
+p.look-more{text-align: center;margin:40px 0;}
+p.look-more a{color:#a4a6a7}
+
+
+
+/***************新闻详情页面****************/
+.detail-title{padding:0 35px;text-align: center}
+.detail-title h1{color:#404141;font-size:25px;margin-top:40px}
+.detail-time{border-bottom: 1px solid #e9e7e6;padding-bottom: 15px;color:#adadad}
+.detail-content{color:#636363;margin-top:15px;margin-bottom: 70px}
+.detail-content p{text-indent: 35px;line-height: 25px}
+.detail-content img{margin:28px auto;display: block}

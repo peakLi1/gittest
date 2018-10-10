@@ -1,0 +1,11 @@
+#footer{width:100%;}
+.foot1{width:100%;height:6px;background: #49c33a;margin-bottom:5px}
+.foot2{width:100%;height:20px;background: #49c33a;margin-bottom:0}
+.foot3{width:100%;height:105px;background:green;position: relative}
+.foot-content{width:950px;margin:0 auto}
+.foot-nav{margin:20px 0}
+.foot-nav li{float:left;padding-right:10px;border-right:2px solid #fff;margin-right:10px}
+.foot-nav li:last-child{border-right:none}
+.foot-nav li a{color:#fff}
+.banquan{margin-top:72px;text-align: center;color:#fff;}
+.shuxian{position: absolute;top:30px;width:100%}

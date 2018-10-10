@@ -1,0 +1,63 @@
+/**********************透明导航********************/
+.nav-opacity{height:80px;line-height: 80px;}
+.nav-opacity li{float:left;margin-right:50px}
+.nav-opacity li a{color:#fff}
+.contact{margin-top:25px}
+div.contact{width:55px;height:85px;position:absolute;top:35px;left:-10px;display: none}
+div.contact p{/*color:#8cc0b0*/;color:#fff;text-align: center;font-size:12px;height:20px;line-height: 20px;margin-top:15px;cursor: pointer}
+
+/**********************子导航********************/
+.relation-nav{width:950px;margin:0 auto}
+.relation-nav li{float:left;width:190px;text-align: center}
+.relation-nav li a{color:#fff}
+
+/*************************首页*************************/
+#page1{background: url("../img/maitian.jpg") no-repeat center center;background-size:100% 100%}
+#page2{background: url("../img/maitian1.jpg") no-repeat center center;background-size:100% 100%}
+#page3{background: url("../img/maitian2.jpg") no-repeat center center;background-size:100% 100%}
+#container .nav-opacity{right:0;top:0}
+div.logo-big{top:20px;left:35px}
+#container h1,#container h2{color:#fff;font-weight:normal;text-align: center}
+#container h1{font-size:40px}
+ul.newslist{bottom:45px;width: 100%}
+ul.newslist li{display: none}
+ul.newslist li.active{display: block}
+ul.newslist a{color:#bac2b1;font-size:14px}
+#container .intro{width:950px;margin:0 auto 20px auto;color:#fff;height:172px}
+.intro h1{margin-bottom:35px;}
+.intro p{text-indent: 2em;line-height: 25px}
+.menu{width:4px;position:absolute;right:50px;top:30px;cursor: pointer}
+.menu li{width:4px;height:4px;border-radius: 50%;background: #fff;margin-bottom:6px}
+#page2  .nav-opacity,#page3  .nav-opacity{position: absolute;right:-777px;}
+
+/*********************联盟架构页面*************************/
+.container{color:#fff;position: fixed;top:0;left:0;width:100%;height:100%;background: url("../img/lmjg.jpg") no-repeat;background-size:100% 100%}
+.content{width:950px;margin:0 auto 50px auto;height: 172px}
+.content h1{font-size:40px;font-weight:normal;text-align: center;margin:170px 0 45px 0}
+.content p{text-indent: 2em;line-height: 25px}
+#lmgj .nav-opacity{position:absolute;right:-777px}
+/**************************联盟宗旨页面********************************/
+.container1{color:#fff;position: fixed;top:0;left:0;width:100%;height:100%;background: url("../img/lmzz.jpg") no-repeat;background-size:100% 100%}
+#lmzz .nav-opacity{position:absolute;right:-777px}
+
+/********************************产品页面**************************************/
+section{width:950px;margin:0 auto;}
+.shaixuan{margin-top:20px;position: relative;z-index: 10}
+.shaixuan:after{content:"";display:block;clear:both;height:0;width:0}
+.search{width:505px;height:48px;border:1px solid #52b340;border-radius: 10px;padding-left:20px;font-size: 16px;font-family: "微软雅黑";}
+.search:focus{outline:none}
+img.search-img{position: absolute;top:11px;left:480px}
+.kind{margin:0 102px 0 77px;width:110px;padding-left:5px}
+.detail-kind{;display:none;top:36px;left:0;padding-left:10%;width:90%;background: #e9e8e8;z-index: 1}
+.detail-kind li{line-height: 35px;}
+.detail-kind li a{color:#52b340;font-size: 16px}
+.sub-title{font-weight:normal;color:#52b340;font-size:18px;margin-top:12px;cursor: pointer}
+.arrow{display: inline-block;width:20px;height:13px;margin:0 8px;background: url("../img/arrow.png")no-repeat center center}
+.shoppingcar{display: inline-block;width:22px;height:18px;margin:0 8px;background: url("../img/shoppingcar.png") no-repeat center center}
+.product{margin-top:95px}
+.product li{width:33%;height:300px;text-align: center;float:left;position: relative;margin-bottom:50px }
+.product li .option{display:none;font-size:18px;width:100%;height:240px;padding-top:60px;position: absolute;top:0;left:0;background: rgba(0,0,0,0.2);z-index: 20}
+.product li .option a.red{color:red}
+.product li .option a{color:#fff}
+.product li .option p{width:100px;margin:30px auto;}
+.loading{text-align: center;color:#666;margin-top:30px;margin-bottom: 20px}
